@@ -70,7 +70,11 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px black;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-attachment: fixed;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 section.imagem > p {
